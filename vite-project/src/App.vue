@@ -3,6 +3,8 @@ import HelloWorld from './components/HelloWorld.vue'
 
 const api = import.meta.env.VITE_API
 console.log(api)
+
+console.log('hello world')
 </script>
 
 <template>
