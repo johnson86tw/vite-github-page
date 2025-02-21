@@ -47,6 +47,7 @@ jobs:
               run: pnpm build
               env:
                   VITE_API: ${{ secrets.VITE_API }}
+                  VITE_TEST_VAR: ${{ vars.VITE_TEST_VAR }}
 
             # Workaround for 404 error with vue-router: https://stackoverflow.com/a/65539760/10752354
             - name: Copy index.html to 404.html

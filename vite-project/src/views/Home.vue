@@ -4,7 +4,8 @@ import HelloWorld from '../components/HelloWorld.vue'
 const api = import.meta.env.VITE_API
 console.log(api)
 
-console.log('hello world')
+const testVar = import.meta.env.VITE_TEST_VAR
+console.log(testVar)
 </script>
 
 <template>
